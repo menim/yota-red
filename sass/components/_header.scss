@@ -1,0 +1,15 @@
+.header {
+  background: $third-color url(../images/yota-header-bg.jpg) top right no-repeat;
+  background-size: contain;
+}
+
+.header__logo {
+  display: inline-block;
+  margin-bottom: 85px;
+}
+
+.header__catchphrase {
+  color: $primary-color;
+  font: 31px/1.16 'bebas neue bold';
+  text-transform: uppercase;
+}
