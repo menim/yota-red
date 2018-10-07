@@ -1,10 +1,21 @@
 @import 'generic/normalize';
 
-@import 'elements';
-
-@import 'objects/bt-grid';
-
 @import 'tools';
 
 @import 'settings/fonts';
+@import 'settings/colors';
+
+@import 'elements';
+@import 'utilities';
+
+@import 'objects/bt-grid';
+
+@import 'components/header';
+@import 'components/yota-description';
+@import 'components/yota-advantage';
+
+@import 'components/headline';
+@import 'components/links';
+@import 'components/yota-headline';
+
 
