@@ -5,12 +5,17 @@
 .yota-advantage__list {
   list-style: none;
   margin-top: 50px;
+  margin-bottom: 0;
   padding-left: 0;
 }
 
 .yota-advantage__item {
   font: 16px/1.3 geometria;
   margin-bottom: 34px;
+}
+
+.yota-advantage__parahraph {
+  margin-bottom: 50px;
 }
 
 .yota-advantage__parahraph--out-wrap {
