@@ -1,0 +1,28 @@
+.links {
+  position: relative;
+  padding-left: 105px;
+
+  &::before {
+    background-image: url(../images/yota-link-icon.jpg);
+    content: '';
+    display: block;
+    height: 74px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 78px;
+  }
+}
+
+.links__item {
+  color: $secondary-color;
+  display: block;
+  font-size: 1em;
+  font-family: geometria;
+  line-height: 1.75;
+
+  &:hover {
+    color: $third-color;
+    text-decoration: none;
+  }
+}
