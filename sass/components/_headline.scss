@@ -2,4 +2,8 @@
   color: $secondary-color;
   font: 36px/1.15   'bebas neue bold';
   text-transform: uppercase;
+
+  &--inverse-text {
+    color: $primary-color;
+  }
 }
