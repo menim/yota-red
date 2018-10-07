@@ -1,13 +1,12 @@
 .links {
   position: relative;
-  padding-left: 105px;
 
   &::before {
     background-image: url(../images/yota-link-icon.jpg);
     content: '';
     display: block;
     height: 79px;
-    left: 0;
+    left: 15px;
     position: absolute;
     top: 0;
     width: 78px;
@@ -20,6 +19,7 @@
   font-size: 1em;
   font-family: geometria;
   line-height: 1.75;
+  padding-left: 90px;
 
   &:hover {
     color: $third-color;

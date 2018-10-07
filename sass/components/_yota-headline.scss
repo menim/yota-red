@@ -6,7 +6,16 @@
   font-size: 25px;
   font-weight: 400;
   line-height: 1;
-  padding: .72em .56em; 
+  padding: .6em .56em .4em; 
   text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.yota-headline--out-wrap-lg {
+  margin-left: -182px;
+}
+
+.yota-headline--out-wrap-md {
+  margin-left: -85px;
 }
 
