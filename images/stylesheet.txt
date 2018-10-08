@@ -1,0 +1,47 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-control-unit-icon {
+    width: 93px;
+    height: 51px;
+    background-position: -5px -5px;
+}
+
+.sprite-fuel-sensor-icon {
+    width: 56px;
+    height: 55px;
+    background-position: -108px -5px;
+}
+
+.sprite-fuel-toggle-icon {
+    width: 46px;
+    height: 36px;
+    background-position: -5px -70px;
+}
+
+.sprite-gearbox-icon {
+    width: 83px;
+    height: 63px;
+    background-position: -61px -70px;
+}
+
+.sprite-injector-icon {
+    width: 103px;
+    height: 56px;
+    background-position: -174px -5px;
+}
+
+.sprite-map-sensor-icon {
+    width: 75px;
+    height: 50px;
+    background-position: -154px -71px;
+}
+
+.sprite-service-book-icon {
+    width: 86px;
+    height: 31px;
+    background-position: -154px -131px;
+}
