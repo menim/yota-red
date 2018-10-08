@@ -1,0 +1,19 @@
+.yota-package__yota-headline {
+  margin-bottom: 45px;
+}
+
+.yota-package__dot {
+  margin-bottom: 35px;
+}
+
+.yota-package__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.yota-package__item {
+  display: inline-block;
+  list-style: none;
+}
