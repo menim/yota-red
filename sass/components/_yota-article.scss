@@ -1,0 +1,15 @@
+.yota-article__headline {
+  margin-bottom: 70px;
+}
+
+.yota-article__paragraph {
+  margin-bottom: 40px;
+
+  &:first-of-type {
+    margin-top: 80px;
+  }
+  
+  &:last-of-type {
+    margin-bottom: 70px;
+  }
+}
