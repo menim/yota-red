@@ -20,4 +20,8 @@
 
 .yota-advantage__parahraph--out-wrap {
   margin-left: -420px;
+
+  @include respond-below(lg) {
+    margin-left: -300px;
+  }
 }

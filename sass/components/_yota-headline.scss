@@ -1,21 +1,29 @@
 .yota-headline {
-  color: $primary-color;
   background-color: $yota-headline-bg;
+  color: $primary-color;
   display: inline-block;
   font-family: 'bebas neue';
   font-size: 25px;
   font-weight: 400;
   line-height: 1;
-  padding: .6em .56em .4em; 
+  padding: .6em .56em .4em;
   text-transform: uppercase;
   white-space: nowrap;
 }
 
 .yota-headline--out-wrap-lg {
   margin-left: -182px;
+
+  @include respond-below(lg) {
+    margin-left: -150px;
+  }
 }
 
 .yota-headline--out-wrap-md {
   margin-left: -85px;
+
+  @include respond-below(lg) {
+    margin-left: -55px;
+  }
 }
 
