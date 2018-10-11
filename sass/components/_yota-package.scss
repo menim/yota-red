@@ -25,7 +25,7 @@
 }
 
 .yota-package__item {
-  display: inline-block;
+  flex: 1 0 auto;
   list-style: none;
 
   &::before {
