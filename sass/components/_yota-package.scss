@@ -8,12 +8,94 @@
 
 .yota-package__list {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
   margin: 0;
+  position: relative;
+
+  &::after {
+    background-color: $third-color;
+    content: '';
+    height: 2px;
+    left: 15px;
+    position: absolute;
+    right: 15px;
+    top: 52%;
+  }
 }
 
 .yota-package__item {
   display: inline-block;
   list-style: none;
+
+  &::before {
+    background-image: url('../images/yota-icons-sprite.png');
+    background-repeat: no-repeat;
+    content: '';
+    display: block;
+    margin: 0 auto 22px;
+  }
+
+  &--control-unit {
+
+    &::before {
+      background-position: -5px -5px;
+      height: 63px;
+      width: 93px;
+    }
+  }
+
+  &--gearbox {
+
+    &::before {
+      background-position: -5px -78px;
+      height: 63px;
+      width: 83px;
+    }
+  }
+
+  &--injector {
+
+    &::before {
+      background-position: -98px -78px;
+      height: 63px;
+      width: 103px;
+    }
+  }
+
+  &--fuel-sensor {
+
+    &::before {
+      background-position: -108px -5px;
+      height: 63px;
+      width: 55px;
+    }
+  }
+
+  &--service-book {
+
+    &::before {
+      background-position: -90px -151px;
+      height: 63px;
+      width: 86px;
+    }
+  }
+
+  &--map-sensor {
+
+    &::before {
+      background-position: -5px -151px;
+      height: 63px;
+      width: 75px;
+    }
+  }
+
+  &--fuel-toggle {
+
+    &::before {
+      background-position: -174px -5px;
+      height: 63px;
+      width: 46px;
+    }
+  }
 }
