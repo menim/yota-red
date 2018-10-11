@@ -1,5 +1,9 @@
 .align-right {
   text-align: right;
+
+  @include respond-below(md) {
+    text-align: inherit;
+  }
 }
 
 .align-center {

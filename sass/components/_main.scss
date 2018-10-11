@@ -1,6 +1,11 @@
 .main {
-  padding-top: 95px;
   padding-bottom: 95px;
+  padding-top: 95px;
+
+  @include respond-below(md) {
+    padding-bottom: 45px;
+    padding-top: 45px;
+  }
 }
 
 .main__yota-description {

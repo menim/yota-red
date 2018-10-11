@@ -17,6 +17,10 @@
   @include respond-below(lg) {
     margin-left: -150px;
   }
+
+  @include respond-below(md) {
+    margin-left: 0;
+  }
 }
 
 .yota-headline--out-wrap-md {
@@ -24,6 +28,10 @@
 
   @include respond-below(lg) {
     margin-left: -55px;
+  }
+
+  @include respond-below(md) {
+    margin-left: 0;
   }
 }
 
