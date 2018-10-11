@@ -2,10 +2,11 @@
   position: relative;
 
   &::before {
-    background-image: url(../images/yota-link-icon.jpg);
+    background-image: url('../images/yota-icons-sprite.png');
+    background-position: -230px -5px;
     content: '';
     display: block;
-    height: 79px;
+    height: 78px;
     left: 15px;
     position: absolute;
     top: 0;
@@ -16,8 +17,8 @@
 .links__item {
   color: $secondary-color;
   display: block;
-  font-size: 1em;
   font-family: geometria;
+  font-size: 1em;
   line-height: 1.75;
   padding-left: 90px;
 
