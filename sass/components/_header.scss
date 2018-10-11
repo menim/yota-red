@@ -3,15 +3,29 @@
   background-size: contain;
   padding-top: 95px;
   padding-bottom: 95px;
+
+  @include respond-below(sm) {
+    padding-bottom: 45px;
+    padding-top: 45px;
+    text-align: center;
+  }
 }
 
 .header__logo {
   display: inline-block;
   margin-bottom: 85px;
+
+  @include respond-below(sm) {
+    margin-bottom: 40px;
+  }
 }
 
 .header__catchphrase {
   color: $primary-color;
   font: 31px/1.16 'bebas neue bold';
   text-transform: uppercase;
+
+  @include respond-below(sm) {
+    margin-bottom: 40px;
+  }
 }
