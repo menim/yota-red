@@ -12,10 +12,17 @@
   margin-bottom: 61px;
 }
 
-.main__yota-package,
 .main__yota-assembly,
 .main__yota-courses {
   margin-bottom: 95px;
+}
+
+.main__yota-package {
+  margin-bottom: 95px;
+  
+  @include respond-below(md) {
+    margin-bottom: 10px;
+  }
 }
 
 .main__youtube-video {

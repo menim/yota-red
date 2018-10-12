@@ -4,6 +4,10 @@
 
 .yota-package__dot {
   margin-bottom: 35px;
+
+  @include respond-below(md) {
+    margin-bottom: 20px;
+  }
 }
 
 .yota-package__list {
@@ -13,6 +17,10 @@
   margin: 0;
   position: relative;
 
+  @include respond-below(md) {
+    justify-content: left;
+  }
+
   &::after {
     background-color: $third-color;
     content: '';
@@ -21,6 +29,10 @@
     position: absolute;
     right: 15px;
     top: 52%;
+
+    @include respond-below(md) {
+      display: none;
+    }
   }
 }
 
@@ -97,5 +109,18 @@
       height: 63px;
       width: 46px;
     }
+  }
+
+  @include respond-below(md) {
+    flex-basis: 25%;
+    margin-bottom: 35px;
+  }
+
+  @include respond-below(sm) {
+    flex-basis: 50%;
+  }
+
+  @include respond-below(xs) {
+    flex-basis: 100%;
   }
 }
