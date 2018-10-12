@@ -1,7 +1,19 @@
 .youtube-video__headline {
   margin-bottom: 70px;
+
+  @include respond-below(md) {
+    margin-bottom: 35px;
+  }
 }
 
 .youtube-video__item {
   margin-bottom: 50px;
+
+  @include respond-below(md) {
+    margin-bottom: 25px;
+  }
+
+  @include respond-below(sm) {
+    text-align: center;
+  }
 }

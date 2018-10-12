@@ -16,10 +16,6 @@
 .main__yota-assembly,
 .main__yota-courses {
   margin-bottom: 95px;
-
-  @include respond-below(md) {
-    margin-bottom: 45px;
-  }
 }
 
 .main__yota-assembly,
@@ -30,7 +26,9 @@
 }
 
 .main__youtube-video {
-  margin-bottom: 45px;
+  @include respond-below(sm) {
+    margin-bottom: 20px;
+  }
 }
 
 
