@@ -1,4 +1,8 @@
 .paragraph {
   color: $secondary-color;
   font: 16px/1.56 geometria;
+
+  @include respond-below(sm) {
+    text-align: left;
+  }
 }
