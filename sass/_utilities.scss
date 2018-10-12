@@ -21,4 +21,8 @@
 
 .nowrap-text {
   white-space: nowrap;
+
+  @include respond-below(xs) {
+    white-space: normal;
+  }
 }
