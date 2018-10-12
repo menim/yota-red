@@ -1,12 +1,16 @@
 .btn {
   background-color: transparent;
-  border: 2px solid $primary-color;
+  border: .11em solid $primary-color;
   border-radius: 4px;
   color: $primary-color;
   font-family: geometria;
   font-size: 18px;
   padding: .85em 1.4em;
-  
+
+  @include respond-below(xs) {
+    font-size: 14px;
+  }
+
   &:hover {
     background-color: $primary-color;
     border-color: $third-color;

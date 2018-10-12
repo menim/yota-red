@@ -2,14 +2,28 @@
   background-color: $third-color;
   padding-bottom: 95px;
   padding-top: 95px;
+
+  @include respond-below(md) {
+    padding-bottom: 45px;
+    padding-top: 45px;
+  }
 }
 
 .yota-courses__headline {
   margin-bottom: 70px;
+  
+  @include respond-below(md) {
+    margin-bottom: 35px;
+  }
 }
 
 .yota-courses__btn {
   margin-left: 15px;
+
+  @include respond-below(xs) {
+    margin-left: 0;
+    margin-top: 10px;
+  }
 }
 
 .yota-courses__paragraph {
@@ -17,4 +31,16 @@
   font: 16px/1.56 geometria;
   margin-bottom: 90px;
   margin-right: -80px;
+
+  @include respond-below(lg) {
+    margin-bottom: 45px;
+    margin-right: 0;
+  }
 }
+
+.yota-courses__map {
+  @include respond-below(md) {
+    margin-top: 45px;
+  }
+}
+

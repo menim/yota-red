@@ -31,4 +31,14 @@
   }
 }
 
+.main__yota-courses {
+  @include respond-below(md) {
+    margin-bottom: 45px;
+  }
+}
+
+
+
+
+
 
